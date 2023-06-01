@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    transition: ease 1s;
 }
 
 .bg {
