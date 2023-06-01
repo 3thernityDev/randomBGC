@@ -1,0 +1,22 @@
+body {
+    background-color: gray;
+}
+
+.bg {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50px;
+    color: white;
+}
+
+.bg:hover {
+    transform: translateY(-5px);
+    background-color: white;
+    color: orange;
+    transition: ease 1s;
+}
